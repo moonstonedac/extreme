@@ -162,7 +162,7 @@ namespace detail {
          else
          {
             vector<string> seeds = {
-              "xtrnode.moonstonedac.com"
+              "xtrnode.moonstonedac.com:443"
             };
             for( const string& endpoint_string : seeds )
             {
