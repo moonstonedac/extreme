@@ -1,0 +1,1 @@
+Bir vekil adınıza oy kullanımını yönetir. Extreme forumunda vekil olarak görev almaya gnüllü kişileri bulabilirsiniz  [Extremetalk](https://extremetalk.org/index.php/board,104.0.html). 

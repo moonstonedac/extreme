@@ -1,0 +1,1266 @@
+{
+  "initial_timestamp": "2016-12-06T03:42:25",
+  "max_core_supply": "1000000000000000",
+  "initial_parameters": {
+    "current_fees": {
+      "parameters": [[
+          0,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          1,{
+            "fee": 5000
+          }
+        ],[
+          2,{
+            "fee": 0
+          }
+        ],[
+          3,{
+            "fee": 20000
+          }
+        ],[
+          4,{}
+        ],[
+          5,{
+            "basic_fee": 5000,
+            "premium_fee": 2000000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          6,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          7,{
+            "fee": 3000
+          }
+        ],[
+          8,{
+            "membership_annual_fee": 2000000,
+            "membership_lifetime_fee": 10000000
+          }
+        ],[
+          9,{
+            "fee": 500000
+          }
+        ],[
+          10,{
+            "symbol3": "500000000",
+            "symbol4": "300000000",
+            "long_symbol": 5000000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          11,{
+            "fee": 500000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          12,{
+            "fee": 500000
+          }
+        ],[
+          13,{
+            "fee": 500000
+          }
+        ],[
+          14,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          15,{
+            "fee": 20000
+          }
+        ],[
+          16,{
+            "fee": 1000
+          }
+        ],[
+          17,{
+            "fee": 100000
+          }
+        ],[
+          18,{
+            "fee": 500000
+          }
+        ],[
+          19,{
+            "fee": 1000
+          }
+        ],[
+          20,{
+            "fee": 5000000
+          }
+        ],[
+          21,{
+            "fee": 20000
+          }
+        ],[
+          22,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          23,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          24,{
+            "fee": 1000
+          }
+        ],[
+          25,{
+            "fee": 1000
+          }
+        ],[
+          26,{
+            "fee": 1000
+          }
+        ],[
+          27,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          28,{
+            "fee": 0
+          }
+        ],[
+          29,{
+            "fee": 5000000
+          }
+        ],[
+          30,{
+            "fee": 20000
+          }
+        ],[
+          31,{
+            "fee": 1000
+          }
+        ],[
+          32,{
+            "fee": 1000
+          }
+        ],[
+          33,{
+            "fee": 20000
+          }
+        ],[
+          34,{
+            "fee": 5000000
+          }
+        ],[
+          35,{
+            "fee": 1000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          36,{
+            "fee": 1000
+          }
+        ],[
+          37,{}
+        ],[
+          38,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          39,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          40,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          41,{
+            "fee": 5000
+          }
+        ],[
+          42,{}
+        ],[
+          43,{
+            "fee": 200000
+          }
+        ],[
+          44,{}
+        ]
+      ],
+      "scale": 10000
+    },
+    "block_interval": 1,
+    "maintenance_interval": 14400,
+    "maintenance_skip_slots": 5,
+    "committee_proposal_review_period": 1209600,
+    "maximum_transaction_size": 2048,
+    "maximum_block_size": 102400000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_whitelist_authorities": 10,
+    "maximum_asset_feed_publishers": 10,
+    "maximum_witness_count": 1001,
+    "maximum_committee_count": 1001,
+    "maximum_authority_membership": 10,
+    "reserve_percent_of_fee": 2000,
+    "network_percent_of_fee": 2000,
+    "lifetime_referrer_percent_of_fee": 3000,
+    "cashback_vesting_period_seconds": 31536000,
+    "cashback_vesting_threshold": 10000000,
+    "count_non_member_votes": true,
+    "allow_non_member_whitelists": false,
+    "witness_pay_per_block": 100000,
+    "worker_budget_per_day": "50000000000",
+    "max_predicate_opcode": 1,
+    "fee_liquidation_threshold": 10000000,
+    "accounts_per_fee_scale": 1000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "extensions": []
+  },
+  "initial_accounts": [{
+      "name": "init000",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init001",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init002",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init003",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init004",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init005",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init006",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init007",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init008",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init009",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init010",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init011",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init012",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init013",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init014",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init015",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init016",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init017",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init018",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init019",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init020",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init021",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init022",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init023",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init024",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init025",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init026",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init027",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init028",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init029",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init030",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init031",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init032",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init033",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init034",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init035",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init036",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init037",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init038",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init039",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init040",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init041",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init042",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init043",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init044",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init045",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init046",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init047",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init048",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init049",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init050",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init051",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init052",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init053",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init054",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init055",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init056",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init057",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init058",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init059",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init060",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init061",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init062",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init063",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init064",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init065",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init066",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init067",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init068",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init069",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init070",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init071",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init072",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init073",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init074",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init075",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init076",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init077",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init078",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init079",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init080",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init081",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init082",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init083",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init084",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init085",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init086",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init087",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init088",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init089",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init090",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init091",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init092",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init093",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init094",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init095",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init096",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init097",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init098",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init099",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "init100",
+      "owner_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "active_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr",
+      "is_lifetime_member": true
+    },{
+      "name": "extreme",
+      "owner_key": "XTR5rbKLrT22SQ1TzcyrxUnXa7Tb7HDDoUSMHHFTsDAf79wFcGbS6",
+      "active_key": "XTR5rbKLrT22SQ1TzcyrxUnXa7Tb7HDDoUSMHHFTsDAf79wFcGbS6",
+      "is_lifetime_member": true
+    }
+  ],
+  "initial_assets": [],
+  "initial_balances": [{
+      "owner": "XTR8dyWVh46BbNnfzcQzhiAZAzj32LdgQvwW",
+      "asset_symbol": "XTR",
+      "amount": "33000000000000"
+    }
+  ],
+  "initial_vesting_balances": [],
+  "initial_active_witnesses": 11,
+  "initial_witness_candidates": [{
+      "owner_name": "init000",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init001",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init002",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init003",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init004",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init005",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init006",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init007",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init008",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init009",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init010",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init011",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init012",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init013",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init014",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init015",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init016",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init017",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init018",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init019",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init020",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init021",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init022",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init023",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init024",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init025",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init026",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init027",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init028",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init029",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init030",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init031",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init032",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init033",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init034",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init035",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init036",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init037",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init038",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init039",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init040",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init041",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init042",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init043",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init044",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init045",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init046",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init047",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init048",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init049",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init050",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init051",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init052",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init053",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init054",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init055",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init056",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init057",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init058",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init059",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init060",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init061",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init062",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init063",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init064",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init065",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init066",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init067",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init068",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init069",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init070",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init071",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init072",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init073",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init074",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init075",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init076",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init077",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init078",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init079",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init080",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init081",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init082",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init083",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init084",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init085",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init086",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init087",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init088",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init089",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init090",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init091",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init092",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init093",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init094",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init095",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init096",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init097",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init098",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init099",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    },{
+      "owner_name": "init100",
+      "block_signing_key": "XTR6MDKsLnK38B9JHfa1Y3wYLrrje3o6Zc95FW2Q4HTNYNvy2tGHr"
+    }
+  ],
+  "initial_committee_candidates": [{
+      "owner_name": "init000"
+    },{
+      "owner_name": "init001"
+    },{
+      "owner_name": "init002"
+    },{
+      "owner_name": "init003"
+    },{
+      "owner_name": "init004"
+    },{
+      "owner_name": "init005"
+    },{
+      "owner_name": "init006"
+    },{
+      "owner_name": "init007"
+    },{
+      "owner_name": "init008"
+    },{
+      "owner_name": "init009"
+    },{
+      "owner_name": "init010"
+    },{
+      "owner_name": "init011"
+    },{
+      "owner_name": "init012"
+    },{
+      "owner_name": "init013"
+    },{
+      "owner_name": "init014"
+    },{
+      "owner_name": "init015"
+    },{
+      "owner_name": "init016"
+    },{
+      "owner_name": "init017"
+    },{
+      "owner_name": "init018"
+    },{
+      "owner_name": "init019"    
+    },{
+      "owner_name": "init020"
+    },{
+      "owner_name": "init021"
+    },{
+      "owner_name": "init022"
+    },{
+      "owner_name": "init023"
+    },{
+      "owner_name": "init024"
+    },{
+      "owner_name": "init025"
+    },{
+      "owner_name": "init026"
+    },{
+      "owner_name": "init027"
+    },{
+      "owner_name": "init028"
+    },{
+      "owner_name": "init029"
+    },{
+      "owner_name": "init030"
+    },{
+      "owner_name": "init031"
+    },{
+      "owner_name": "init032"
+    },{
+      "owner_name": "init033"
+    },{
+      "owner_name": "init034"
+    },{
+      "owner_name": "init035"
+    },{
+      "owner_name": "init036"
+    },{
+      "owner_name": "init037"
+    },{
+      "owner_name": "init038"
+    },{
+      "owner_name": "init039"
+    },{
+      "owner_name": "init040"
+    },{
+      "owner_name": "init041"
+    },{
+      "owner_name": "init042"
+    },{
+      "owner_name": "init043"
+    },{
+      "owner_name": "init044"
+    },{
+      "owner_name": "init045"
+    },{
+      "owner_name": "init046"
+    },{
+      "owner_name": "init047"
+    },{
+      "owner_name": "init048"
+    },{
+      "owner_name": "init049"
+    },{
+      "owner_name": "init050"
+    },{
+      "owner_name": "init051"
+    },{
+      "owner_name": "init052"
+    },{
+      "owner_name": "init053"
+    },{
+      "owner_name": "init054"
+    },{
+      "owner_name": "init055"
+    },{
+      "owner_name": "init056"
+    },{
+      "owner_name": "init057"
+    },{
+      "owner_name": "init058"
+    },{
+      "owner_name": "init059"
+    },{
+      "owner_name": "init060"
+    },{
+      "owner_name": "init061"
+    },{
+      "owner_name": "init062"
+    },{
+      "owner_name": "init063"
+    },{
+      "owner_name": "init064"
+    },{
+      "owner_name": "init065"
+    },{
+      "owner_name": "init066"
+    },{
+      "owner_name": "init067"
+    },{
+      "owner_name": "init068"
+    },{
+      "owner_name": "init069"
+    },{
+      "owner_name": "init070"
+    },{
+      "owner_name": "init071"
+    },{
+      "owner_name": "init072"
+    },{
+      "owner_name": "init073"
+    },{
+      "owner_name": "init074"
+    },{
+      "owner_name": "init075"
+    },{
+      "owner_name": "init076"
+    },{
+      "owner_name": "init077"
+    },{
+      "owner_name": "init078"
+    },{
+      "owner_name": "init079"
+    },{
+      "owner_name": "init080"
+    },{
+      "owner_name": "init081"
+    },{
+      "owner_name": "init082"
+    },{
+      "owner_name": "init083"
+    },{
+      "owner_name": "init084"
+    },{
+      "owner_name": "init085"
+    },{
+      "owner_name": "init086"
+    },{
+      "owner_name": "init087"
+    },{
+      "owner_name": "init088"
+    },{
+      "owner_name": "init089"
+    },{
+      "owner_name": "init090"
+    },{
+      "owner_name": "init091"
+    },{
+      "owner_name": "init092"
+    },{
+      "owner_name": "init093"
+    },{
+      "owner_name": "init094"
+    },{
+      "owner_name": "init095"
+    },{
+      "owner_name": "init096"
+    },{
+      "owner_name": "init097"
+    },{
+      "owner_name": "init098"
+    },{
+      "owner_name": "init099"
+    },{
+      "owner_name": "init100"
+    }
+  ],
+  "initial_worker_candidates": [],
+  "initial_chain_id": "aa34045518f1469a28fa4578240d5f039afa9959c0b95ce3b39674efa691fb21",
+  "immutable_parameters": {
+    "min_committee_member_count": 101,
+    "min_witness_count": 101,
+    "num_special_accounts": 0,
+    "num_special_assets": 0
+  }
+}
