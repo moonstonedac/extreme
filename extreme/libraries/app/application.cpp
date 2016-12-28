@@ -162,15 +162,7 @@ namespace detail {
          else
          {
             vector<string> seeds = {
-              "xtrseed1.moonstonedac.com:22000",
-              "xtrseed2.moonstonedac.com:22000",
-              "xtrseed3.moonstonedac.com:22000",
-              "xtrseed4.moonstonedac.com:22000",
-              "xtrseed5.moonstonedac.com:22000",
-              "xtrseed6.moonstonedac.com:22000",
-              "xtrseed7.moonstonedac.com:22000",
-              "xtrseed8.moonstonedac.com:22000",
-              "xtrseed9.moonstonedac.com:22000",
+              "xtrnode.moonstonedac.com"
             };
             for( const string& endpoint_string : seeds )
             {
