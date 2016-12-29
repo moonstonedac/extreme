@@ -13,7 +13,7 @@ module.exports = _this = {
         Extreme: {
             core_asset: "XTR",
             address_prefix: "XTR",
-            chain_id: "4c94a1ca883f1db210891fd5127ced746aee5e9c38d06d0cf86f59a128c496a5"
+            chain_id: "eee0ce9bbd51ef8e868d5c9e39c73216689893e155f27eb73009e9df59f4e706"
         }
     },
 
