@@ -162,7 +162,12 @@ namespace detail {
          else
          {
             vector<string> seeds = {
-              "xtrnode.moonstonedac.com:443"
+              "xtrnode.moonstonedac.com:23000",
+              "xtrnode1.moonstonedac.com:23000",
+              "xtrnode2.moonstonedac.com:23000",
+              "xtrnode3.moonstonedac.com:23000",
+              "xtrnode4.moonstonedac.com:23000",
+              "xtrnode5.moonstonedac.com:23000"
             };
             for( const string& endpoint_string : seeds )
             {
