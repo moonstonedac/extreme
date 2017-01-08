@@ -467,7 +467,10 @@ bool database::check_call_orders(const asset_object& mia, bool enable_black_swan
     // stop when limit orders are selling too little USD for too much CORE
     auto min_price = smartasset.current_feed.max_short_squeeze_price();
 
-    assert( max_price.base.asset_id == min_price.base.asset_id );
+    if (max_price.base.asset_id != min_price.base.asset_id) 
+       return false;
+   
+    assert( max_price.base.asset_id == min_price.base.asset_id );//this shouldn't happen after statement above
     // NOTE limit_price_index is sorted from greatest to least
     auto limit_itr = limit_price_index.lower_bound( max_price );
     auto limit_end = limit_price_index.upper_bound( min_price );
